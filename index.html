@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+<meta charset="utf-8">
+<title>Pagina web</title>
+
+<link rel="stylesheet" href="estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <div>
+        <div include-html="./partials/aside.html"></div>
+    </div>
+
+<header class="header2">
+    <div class="imgheader">
+        <img src="Imagenes/imagen header.png" width="400px" height="200px">
+
+    </div>
+    
+    <div class="wrapper">
+    <div class="logo">Fotografía</div>  
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative">
+        <div class="container-fluid">
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarTogglerDemo02" 
+                  aria-controls="navbarTogglerDemo02" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#history">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#tips">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    </div>
+</header>
+
+<aside>
+    <div class="widget asidestilo1 wrapper">
+        <h1>Contact me</h1>
+
+        <form>
+            <input type="name" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="phone number" name="phone number" placeholder="Phone Number">
+        </form>
+    </div>
+    <br>
+    <br>
+
+    <div class="widget wrapper asidestyle">
+        <h1>Frase</h1>
+        <br>
+        <blockquote>
+            “La fotografía sólo puede representar el presente. Una vez fotografiados, 
+            el sujeto se convierte en parte del pasado.” Berenice Abbott»
+        </blockquote>
+
+
+    </div>
+
+</aside>
+
+<div class="contenido2">
+<section class="contenido wrapper" id="history">
+    <article>
+    <p><h1> Historia </h1></p>
+    <p>En el año 1814, el científico francés Joseph Nicéphore Niépce obtuvo las primeras
+     imágenes fotográficas, inéditas. La fotografía más antigua que se conserva es la imagen 
+     conocida como Vista desde la ventana en Le Gras, obtenida en 1826 con la utilización de 
+     una cámara oscura y una placa de peltre recubierta en betún.
+ </p>
+    <img src="imagenes/imagen 1.png" width="1000" height="700">
+
+    <p>Niepce necesito más de 8 horas a plena luz del día para obtener imágenes del sitio. 
+        En 1827 Louis Daguerre firmó un acuerdo con Niepce, ya que se interesó por sus investigaciones. 
+        Cuando falleció Niepce, Daguerre siguió con sus experimentos para lograr obtener imágenes en el 
+        menor tiempo. Usando las sales de plata y con el apoyo del Estado Francés, logró que siguiera su 
+        proceso para la obtención de fotografías sobre una superficie de plata pulida, a la que denominó 
+        Daguerrotipo. Se volvió muy popular usarlo para retratos, ya que su calidad era superior al que 
+        usaban con calotipo. Esos retratos se expandieron durante la Revolución Industrial, por ser mucho 
+        más baratos que las pinturas y le dio un gran impulso a esa nueva técnica.</p> 
+        <p>
+        A partir de 1855 gracias a experimentos con colodión húmedo se sacaron fotos más nítidas con una 
+        alta gama de colores. Después de 1880 se desarrollaron nuevas placas secas al gelatino-bromuro que 
+        permitían positivar muchas copias en papel a la albúmina y donde también se podían comercializar sin limitaciones.
+        </p>
+        <p>
+        A principios del siglo XX se empezaron a experimentar las fotografías a color. La primera fotografía 
+        a color fue obtenida por el físico y matemático escones James Clerk Maxwell. Usando lentes con filtros
+        diferentes: rojo, verde y azul. Ya que según Maxwell a partir de esos colores el cerebro crea todos los demás. 
+        La auténtica primera placa fotográfica en color, conocida comercialmente como Autochrome, fue propuesta
+        en diciembre de 1903 por los hermanos Lumière. Con esas placas se pudo ultimar por primera vez la TV a 
+        color en 1935. Y hasta el día de hoy tomar una foto solo es pulsar un botón con el dedo. La tecnología 
+        ha avanzado mucho y podemos con cámaras sacar una foto real al instante y guardar ese recuerdo. 
+        </p>
+    </article>
+</div>
+
+</section>
+
+<section class="article colorarticle" id="tips">
+    <div class="contenido1 imagenes1">
+    <p><h4>Estos son los diferentes planos para una foto</h4></p>
+    </div>
+    
+    <div class="imagenes1 wrapper contenido1">
+
+        <div>
+        <img class="plano-americano" src="Imagenes/plano americano.png" alt="">
+        
+        <h2>Plano americano</h2><br>
+        <p>Se le toma solo la mitad del cuerpo, o de las rodillas.<br>
+        Usualmente se usan en películas de vaqueros para que se <br>vea 
+        la pistola de la cadera. 
+        </p>
+        </div>
+
+        <div>
+        <img class="plano-general" src="Imagenes/plano general.png" alt="">
+
+        <h2>Plano general</h2><br>
+        <p>Se le toma el cuerpo completo a la persona u objeto,<br> desde los pies a la cabeza. </p>
+        </div>
+    </div>
+
+    <div class="imagenes1 wrapper contenido1">
+        <div>
+        <img class="plano-medio-corto" src="Imagenes/plano medio corto.png">
+        <h2>Plano medio corto</h2><br>
+        <p>Se toma del pecho para arriba. Sirve mucho para que <br>el sujeto sea centro 
+        de atención y se separe del fondo. 
+        </p>
+        </div>
+
+        <div>
+        <img class="plano-medio" src="Imagenes/plano medio.png">
+        <h2>Plano medio</h2><br>
+        <p>Se toma desde la cintura para arriba, este tipo de plano <br>permite ver 
+        bien las expresiones faciales. Se utiliza mucho en retratos. 
+        </p>
+        </div>
+    </div>
+
+    <div class="imagenes1 wrapper contenido1">
+        <div>
+        <img class="primer-plano" src="Imagenes/primer plano.png">
+        <h2>Primer plano</h2>
+        <p>Se toma desde los hombros hasta la cabeza. Es un plano <br>perfecto 
+        para mostrar las expresiones y emociones del <br>modelo. 
+        </p>
+        </div>
+
+        <div>
+        <img class="primerisimo-primer-plano" src="Imagenes/primerisimo primer plano.png">
+        <h2>Primerisimo primer plano</h2>
+        <p>Se toma desde el mentón hasta la frente. Se utiliza para mostrar<br>
+         un sentimiento de manera más intensa. 
+        </p>
+        </div>
+    </div>
+</section>
+
+<section class="table wrapper">
+    
+    <table style="width: 100%;">
+        <tr>
+            <th>Nombre</th>
+            <th>Nacimiento</th>
+            <th>Experimentos</th>
+        </tr>
+        <tr>
+            <td>Johann Heinrich Schulze</td>
+            <td>1687-1744</td>
+            <td>Descrubió las propiedades fotosensibles de las sales de plata, observando
+                cómo el cloruro de plata y el nirtato de plata se ennegrecian por efecto de la luz.
+            </td>
+        </tr>
+        <tr>
+            <td>Joseph Nicéphore Niepce</td>
+            <td>1765-1833</td>
+            <td>Tuvo la idea de emplear una cámara oscuro junto con sales de plata para tratar de 
+                conseguir imagenes. Duró ocho horas para que la imagen se viera.
+            </td>
+        </tr>
+        <tr>
+            <td>Mande Daguerre</td>
+            <td>1787-1851</td>
+            <td>Consiguió reducir el período para conseguir una imagen entre los cinco y los cuarenta 
+                minutos, frente a las dos horas de Niepce.
+            </td>
+        </tr>
+    </table>
+
+
+</section>
+
+<section class="footer footerstyle" id="contact">
+    <footer>
+        <h1>Location</h1>
+        <br>
+        <p>marianacz0308@gmail.com</p>
+        <br>
+        <p>Colombia</p>
+        <div>
+        <img class="perfil" src="Imagenes/perfil.png">
+        </div>
+
+    </footer>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

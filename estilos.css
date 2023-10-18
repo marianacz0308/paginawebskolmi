@@ -1,0 +1,195 @@
+*{margin:0; padding:0;}
+
+body {
+    background:#fffffa;
+}
+
+header {
+    width:100%;
+    overflow:hidden;
+    background:#252932;
+    margin-bottom:20px;
+}
+
+.wrapper {
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow:hidden;
+}
+
+header .logo {
+    color:#ffffff;
+    font-size:50px;
+    line-height:200px;
+    float:left;
+}
+
+header nav {
+    float:right;
+    line-height:200px;
+}
+
+header nav a {
+    display:inline-block;
+    color:#ffffff;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+header nav a:hover {
+    background:#969393;
+    border-radius:50px;
+}
+
+.header2 {
+    position:fixed;
+    height:150px;
+}
+
+.contenido {
+    padding-top:170px;
+}
+
+.contenido1 {
+    padding-top:50px;
+}
+
+.contenido p {
+    margin-bottom:1em;
+}
+
+section[id]{
+    scroll-margin-top:70px;
+}
+
+.contenido2 {
+    text-align:justify;
+}
+
+.article {
+    background:#545967;
+    width:100%;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.imagenes1 {
+    display:flex;
+    justify-content:center;
+}
+
+.plano-americano {
+    width:350px;
+    height:350px;
+    margin-right:50px;
+}
+
+.plano-general {
+    width:300px;
+    height:350px;
+    margin-left:50px;
+}
+
+.colorarticle {
+    color:#ebe7e7;
+}
+
+.plano-medio-corto {
+    width:350px;
+    height:370px;
+    margin-right:30px;
+}
+
+.plano-medio {
+    width:350px;
+    height:370px;
+    margin-left:30px;
+}
+
+.primer-plano {
+    width:350px;
+    height:300px;
+    margin-right:20px;
+}
+
+.primerisimo-primer-plano {
+    width:400px;
+    height:300px;
+    margin-left:20px;
+}
+
+aside {
+    float:left;
+    width:200px;
+    background:rgb(120, 118, 118);
+}
+
+.asidestyle {
+    padding-bottom:400px;
+}
+
+.asidestilo1 {
+    padding-top:500px;
+}
+
+.widget {
+    margin-bottom: 40px;
+
+}
+
+.widget form input[type="name"]{
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.widget form input[type="email"]{
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.widget form input[type="phone number"]{
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.footerstyle {
+    text-align:center;
+    padding-bottom:50px;
+    padding-top: 50px;
+}
+
+table, th, td {
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-of-type(1) > th {
+    background-color: #181a1f;
+    color: #ffffff;
+}
+
+td {
+    background-color: #969393;
+}
+
+.imgheader {
+    position:absolute;
+    left: 1500px;
+
+}
